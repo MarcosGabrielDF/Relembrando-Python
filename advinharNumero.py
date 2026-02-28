@@ -14,7 +14,7 @@ while contador < 5:
     try:# Tratamento de erro caso não sejá um número.
         Entrada_do_jogador = int(Entrada_do_jogador) # Converte para inteiro
 
-        if Entrada_do_jogador <= 10 and Entrada_do_jogador >= 1: #Verifica se a entrada é menor ou igual a 10 e maior ou igual a 1
+        if Entrada_do_jogador <= 10 and Entrada_do_jogador >= 1: #Verifica se a entrada é menor ou igual a 10 e maior ou igual a 1.
             if numero == Entrada_do_jogador:
                 print('Você acertou!')
                 break
